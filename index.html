@@ -185,7 +185,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     burger.classList.toggle('active');
   });
 
-  // Закрытие меню при клике на ссылку
+
   document.querySelectorAll('.nav a').forEach(link => {
     link.addEventListener('click', () => {
       nav.classList.remove('active');
@@ -193,9 +193,9 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     });
   });
 
-  // Ваш существующий код для перестановки секций
+  
   function rearrangeAboutSection() {
-    // ... существующий код ...
+   
   }
   window.addEventListener('DOMContentLoaded', rearrangeAboutSection);
   window.addEventListener('resize', rearrangeAboutSection);
@@ -209,10 +209,10 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     const cert = document.querySelector('.cert');
 
     if (isMobile && textBottom && cert && !cert.nextElementSibling?.classList?.contains('text-bottom')) {
-      // Переместить textBottom под cert
+      
       about.insertBefore(textBottom, cert.nextSibling);
     } else if (!isMobile && textTop && textBottom) {
-      // Вернуть textBottom назад под textTop, если ушли с мобильного
+
       const text = document.querySelector('.text');
       if (text && textTop.nextSibling !== textBottom) {
         text.insertBefore(textBottom, textTop.nextSibling);
@@ -220,7 +220,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     }
   }
 
-  // Вызов при загрузке и при изменении размера окна
+
   window.addEventListener('DOMContentLoaded', rearrangeAboutSection);
   window.addEventListener('resize', rearrangeAboutSection);
 </script>
