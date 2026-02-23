@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ЛабЗахідДорСервіс</title>
   <link rel="stylesheet" href="./style.css" />
-  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="icon" href="images/logo.png" type="image/png">
 </head>
 <body>
   <header class="header">
@@ -19,118 +19,318 @@
       <span></span>
     </div>
     <nav class="nav">
-      <a href="#about">Про нас</a>
-      <a href="#services">Послуги</a>
-      <a href="#subscriptions">Підписки</a>
-      <a href="#contact">Контакти</a>
+      <div class="dropdown">
+        <a href="javascript:void(0)">Про нас <span class="arrow">▾</span></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item">
+            <a href="../Pro nas/index.html#lab-status">
+              <img src="images/certificates.jpg" alt="">
+              <span>Статус лабораторії</span>
+            </a>
+          </div>
+          <div class="dropdown-item">
+            <a href="../Pro nas/index.html#partners">
+              <img src="images/TitleLEMS.jpg" alt="">
+              <span>Членство та Партнери</span>
+            </a>
+          </div>
+          <div class="dropdown-item">
+            <a href="../Pro nas/index.html#staff">
+              <img src="images/staff.jpg" alt="">
+              <span>Персонал</span>
+            </a>
+          </div>
+          <div class="dropdown-item">
+            <a href="../Pro nas/index.html#history">
+              <img src="images/m_karikatura.jpg" alt="">
+              <span>Наша Історія</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="dropdown">
+        <a href="javascript:void(0)">Послуги <span class="arrow">▾</span></a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item">
+            <a href="../Poslygu/index.html#polovi">
+              <img src="images/m_roadABK.jpg" alt="">
+              <span>Польові дослідження</span>
+            </a>
+          </div>
+          <div class="dropdown-item">
+            <a href="../Poslygu/index.html#laboratorni">
+              <img src="images/lab_AB.jpg" alt="">
+              <span>Лабораторні дослідження</span>
+            </a>
+          </div>
+          <div class="dropdown-item">
+            <a href="../Poslygu/index.html#vid-A-do-Y">
+              <img src="images/m_A_B.jpg" alt="">
+              <span>Від А до Я</span>
+            </a>
+          </div>
+          <div class="dropdown-item">
+            <a href="../Poslygu/index.html#kursy">
+              <img src="images/m_navchannja.jpg" alt="">
+              <span>Навчальні курси</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#contacts">Контакти</a>
     </nav>
+
   </header>
 
+    <div class="header-line"></div> <!-- Полоса -->
+
   <section class="hero">
-    <img src="images/road.png" alt="Дорога" class="hero-bg" />
+    <img src="images/TitleLEMS.jpg" alt="Дорога" class="hero-bg" />
+  
     <div class="hero-text">
-      <h1>Незалежний <strong>контроль якості</strong> матеріалів та <strong>технічна підтримка виробництв</strong> </h1>
-      <p>За доступною ціною, оперативно та якісно — це основні принципи нашої діяльності, бо ми розуміємо, що Вам це потрібно на вчора!</p>
+      <h1>Незалежний контроль якості</h1>
+      <h1>Будівельних і Дорожніх матеріалів</h1>
+      <h1>та технічна підтримка виробництв</h1>
+      <p>За доступною ціною, оперативно та якісно - </p>
+      <p>бо ми розуміємо, що Вам це потрібно на вчора!</p>
     </div>
+
+    <!-- Фото справа внизу -->
+    <img src="images/d1R.png" alt="Доп фото" class="hero-extra" />
   </section>
 
+
   <main>
+    <section class="second-screen">
+      <img src="images/TitleSMA.jpg" alt="Фон" class="second-bg" />
+
+      <div class="overlay">
+        <h2>Послуги лабораторії</h2>
+        <div class="blocks">
+          <div class="block">
+            <img src="images/m_roadABK.jpg" alt="">
+            <p>Польові дослідження</p>
+          </div>
+          <div class="block">
+            <img src="images/m_labAB.jpg" alt="">
+            <p>Лабораторні дослідження</p>
+          </div>
+          <div class="block">
+            <img src="images/m_A_B.jpg" alt="">
+            <p>Від А до Я</p>
+          </div>
+          <div class="block">
+            <img src="images/m_navchannja.jpg"  alt="">
+            <p>Навчальні курси</p>
+          </div>
+        </div>
+      </div>
+      <img src="images/d1L.png" alt="Перехід" class="second-screenph" />
+    </section>
+
+    <img src="images/border2.1.jpg" alt="Перехід2" class="second-about" />
+
     <section class="about" id="about">
+      <img src="images/lab_outside.jpg" alt="Фон about" class="about-bg">
       <div class="text">
         <div class="text-top">
-          Лабораторія функціонує у новозбудованому приміщенні із забезпеченням вимог за <strong>сучасними європейськими стандартами</strong> та діє на підставі «Свідоцтва про відповідність системи керування вимірюваннями №РЛ017/24», що є чинним до 04.04.2029р. (рис. Сертифікат)
+          <p>Лабораторія функціонує у</p>
+          <p>новозбудованому приміщенні із</p>
+          <p>забезпеченням вимог за сучасними</p>
+          <p>європейськими стандартами та діє на</p>
+          <p>підставі «Свідоцтва про відповідність</p>
+          <p>системи керування вимірюваннями</p>
+          <p>№РЛ017/24», що є чинним до 04.04.2029р.</p>
+          <p>(рис. Сертифікат)</p>
         </div>  
         <div class="text-bottom">
-          Співпрацює із ДП «Національний інститут розвитку інфраструктури» та Національним університетом «Львівська політехніка». Галузь діяльності лабораторії окреслюється 176 стандартами українських та європейських норм.
+          <p>Співпрацює із ДП «Національний інститут</p>
+          <p>розвитку інфраструктури» та</p>
+          <p>Національним університетом «Львівська</p>
+          <p>політехніка».</p>
+          <p>Галузь діяльності лабораторії</p>
+          <p>окреслюється 176 стандартами українських</p>
+          <p>та європейських норм.</p>
         </div>
+      <img src="images/d1L.png" alt="Перехід" class="about-screenph" />
+      <img src="images/border2.1.jpg" alt="Перехід2" class="about-cert" />
       </div>
       <div class="cert">
-        <img src="images/certificate.png" alt="Сертифікат" />
+        <img src="images/certificates.jpg" alt="Сертифікат" />
       </div>
     </section>
 
-    <section class="services" id="services">
-      <div class="uptext"><h2>Сфера <strong>компетенції лабораторії</strong></h2></div>
-    <div class="grid">
-      <div class="card"><p><strong>Модифікатори для бітумів</strong></p><img src="images/1.png" alt=""></div>
-      <div class="card"><p><strong>Проєктування складів АБ</strong></p><img src="images/2.png" alt=""></div>
-      <div class="card"><p><strong>Розробка та підтримка ЛЕМС</strong></p><img src="images/3.png" alt=""></div>
-      <div class="card"><p>Дослідження цементобетонів</p><img src="images/4.png" alt=""></div>
-      <div class="card"><p>Дослідження основ та ґрунтів</p><img src="images/5.png" alt=""></div>
-      <div class="card"><p>Матеріали для гідроізоляції</p><img src="images/6.png" alt=""></div>
-      <div class="card"><p>Протиледні матеріали</p><img src="images/7.png" alt=""></div>
-      <div class="card"><p>Бруківка, плитка</p><img src="images/8.png" alt=""></div>
-      <div class="card"><p>Підвищення кваліфікації</p><img src="images/9.png" alt=""></div>
-    </div>
-    </section>
-    <section class="video-container">
-      <div class="video-wrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kuR6GSt0zgc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section class="reviews" id="reviews">
+      <img src="images/TitleLEMS.jpg" alt="Фон секції" class="reviews-bg">
+      <h2>Сфера компетенції лабораторії</h2>
+
+      <div class="reviews-slider">
+        <button class="arrows prev">
+          <img src="images/more than B.png" alt="Назад">
+        </button>
+
+        <div class="reviews-wrapper">
+          <div class="reviews-container">
+            <div class="review">
+              <img src="images/m_additive.jpg" alt="">
+              <div class="review-text">
+                <p>Дослідження модифікаторів бітумних в’яжучих і емульсій для бітумно-емульсійних технологій та органо-мінеральних сумішей</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <img src="images/m_recipe.jpg" alt="">
+              <div class="review-text">
+                <p>Проектування складів АБС та контроль якості їх влаштування із подальшою діагностикою технічного стану шарів дорожнього одягу на їх основі</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <img src="images/m_slarry2.jpg" alt="">
+              <div class="review-text">
+                <p>Науковий супровід щодо влаштування шарів зносу з ЛЕМС (сларрі-сіл) та поверхневої обробки автомобільних доріг</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <img src="images/m_crushed-stone.jpg" alt="">
+              <div class="review-text">
+                <p>Повний спектр випробувань, щодо кам’яних матеріалів (неукріплених та укріплених різними в’яжучими)</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <img src="images/m-epiura.jpg" alt="">
+              <div class="review-text">
+                <p>Дослідження фізичних та деформаційних властивостей ґрунтів та основ</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <img src="images/m_beton1.jpg" alt="">
+              <div class="review-text">
+                <p>Відбір проб та випробування цементобетонів, розчинів</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <img src="images/m_mastika.jpg" alt="">
+              <div class="review-text">
+                <p>Випробування гідроізолюючих та герметизуючих матеріалів (герметиків, мастик)</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <img src="images/m_salt1.jpg" alt="">
+              <div class="review-text">
+                <p>Випробування протиожеледних матеріалів</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <img src="images/m_brukivka.jpg" alt="">
+              <div class="review-text">
+                <p>Дослідження брущатки, виробів тротуарних, цегли та каменів керамічних лицьових та рядових</p>
+              </div>
+            </div>
+
+            <div class="review">
+              <img src="images/m_navchannja.jpg" alt="">
+              <div class="review-text">
+                <p>Проведення навчальних та наукових семінарів, практик, конференцій, підвищення кваліфікацій персоналу та стажування</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="arrows next">
+          <img src="images/more than W.png" alt="Вперед">
+        </button>
+      </div>
+      <img src="images/border1.1.jpg" alt="Перехід3" class="cert-review" />
       </div>
     </section>
-    <section class="subscriptions" id="subscriptions">
-      <h2>Отримайте консультаційну підтримку</h2>
-      <div class="plans">
-        <div class="plan">
-          <h3>Місячна підписка</h3>
-          <div class="price">$10</div>
-          <ul class="features">
-            <li>Консультація на пряму</li>
-            <li>Доступ до базових матеріалів</li>
-            <li>Електронна підтримка</li>
-          </ul>
-          <button class="btn">Обрати</button>
+
+    <section class="principles">
+      <h2>Основні принципи нашої діяльності</h2>
+      <div class="principles-container">
+        <div class="principle">
+          <img src="images/personal.png" alt="Кваліфікований персонал">
+          <p>Кваліфікований персонал</p>
         </div>
-        
-        <div class="plan recommended">
-          <div class="recommended-badge">Найкраща ціна</div>
-          <h3>Піврічна підписка</h3>
-          <div class="price">$45</div>
-          <div class="savings">(Економия $15)</div>
-          <ul class="features">
-            <li>Консультація на пряму</li>
-            <li>Доступ до всіх матеріалів</li>
-            <li>Пріоритетна підтримка</li>
-            <li>2 вебінари на місяць</li>
-          </ul>
-          <button class="btn">Обрати</button>
+        <div class="principle">
+          <img src="images/avto1.png" alt="Оперативність">
+          <p>Оперативність</p>
         </div>
-        
-        <div class="plan">
-          <h3>Річна підписка</h3>
-          <div class="price">$80</div>
-          <div class="savings">(Економия $40)</div>
-          <ul class="features">
-            <li>Консультація на пряму</li>
-            <li>Повний доступ до матеріалів</li>
-            <li>Ексклюзивна підтримка</li>
-            <li>4 вебінари на місяць</li>
-            <li>Персональний менеджер</li>
-          </ul>
-          <button class="btn">Обрати</button>
+        <div class="principle">
+          <img src="images/jakist.jpg" alt="Висока якість">
+          <p>Висока якість</p>
+        </div>
+        <div class="principle">
+          <img src="images/price1.png" alt="Доступна ціна">
+          <p>Доступна ціна</p>
         </div>
       </div>
-    </section>
-  </main>
-
-  <footer class="footer" id="contact">
-    <h2>Ми знаходимось</h2>
-    <p>м. Львів, вул. Прикладна, 123</p>
-  </footer>
-</body>
-</html>
+      <img src="images/konus.png" alt="Декор" class="principles-decor-top">
+      <img src="images/konus.png" alt="Декор" class="principles-decor-bottom">
+      <img src="images/border1.1.jpg" alt="Перехід3" class="review-contacts" />
+      </div>
     </section>
 
-    <section class="contact" id="contact">
-      <h2>Контакти</h2>
-      <p>Телефон: +38 (093) 605 54 34</p>
-      <p>Email: zahdorser@gmail.com</p>
-    </section>
-  </main>
+    <section class="contacts" id="contacts">
+      <div class="contacts-info">
+        <h2>Контакти</h2>
 
-  <footer class="footer">
-    <p>&copy; 2025 ЗахідДорСервіс. Усі права захищено.</p>
-  </footer>
+        <div class="contact-block">
+          <p><a href="tel:+380502625260">+38 (050) 26 25 260</a></p>
+          <p><a href="tel:+380952605531">+38 (095) 26 05 531</a></p>
+        </div>
+
+        <div class="contact-block">
+          <p>
+            81195,<br>
+            Україна,<br>
+            Львівська обл.,<br>
+            с. Горішнє,<br>
+            вул. Героїв України, 21
+          </p>
+        </div>
+
+        <div class="contact-block">
+          <p><a href="mailto:labzds_lviv@gmail.com">labzds_lviv@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="contacts-map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8178.280307986022!2d24.084336957582277!3d49.78612430675694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae99bc55e179f%3A0x2ab58e739c78c1a5!2sPp%20%22Laboratoriya%20Zakhiddorservis%22!5e0!3m2!1sru!2sua!4v1757958953586!5m2!1sru!2sua" 
+          width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-logo">
+        <img src="images/logoup.png" alt="ЛЗДС" />
+      </div>
+
+      <nav class="footer-menu">
+        <a href="../Pro nas/index.html">Про нас</a>
+        <a href="../Poslugi/index.html">Послуги ПП «ЛЗДС»</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+
+      <div class="footer-contacts">
+        <p><a href="tel:+380502625260">+38 (050) 26 25 260</a></p>
+        <p><a href="tel:+380952605531">+38 (095) 26 05 531</a></p>
+        <p><a href="mailto:labzds_lviv@gmail.com">labzds_lviv@gmail.com</a></p>
+      </div>
+    </footer>
+
   <div class="contact-btn">
     <button id="contactBtn">Зв'язатись з нами</button>
   </div>
@@ -142,13 +342,12 @@
       <form id="contactForm">
         <input type="text" placeholder="Ваше ім'я" name="name" required>
         <input type="email" placeholder="Ваш email" name="mail" required>
-        <input type="text" placeholder="Тема" name="subject">
         <textarea placeholder="Повідомлення" name="message" required></textarea>
         <button type="submit">Надіслати</button>
       </form>
     </div>
 </div>
-  <script> 
+<script> 
 const contactBtn = document.getElementById('contactBtn');
 const contactModal = document.getElementById('contactModal');
 const closeBtn = document.querySelector('.close');
@@ -167,12 +366,40 @@ window.addEventListener('click', (e) => {
   }
 });
 
-document.getElementById('contactForm').addEventListener('submit', function(e) {
+document.getElementById('contactForm').addEventListener('submit', async function(e) {
   e.preventDefault();
-  // можна додати відправку форму
-  alert('Дякуємо за ваше повідомлення! Ми зв\'яжемося з вами найближчим часом.');
-  contactModal.style.display = 'none';
-  this.reset();
+
+  // 1. Збираємо дані з форми
+  const formData = {
+    name: this.name.value.trim(),
+    mail: this.mail.value.trim(),
+    message: this.message.value.trim()
+  };
+
+  try {
+    // 2. Коли з’явиться сервер – тут буде реальна відправка
+    // ❗ ПОКИ ЩО URL УМОВНИЙ. Потім заміниш на свій.
+    const response = await fetch('/api/send-contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(formData)
+    });
+
+    if (!response.ok) {
+      throw new Error('Помилка мережі');
+    }
+
+    // 3. Якщо сервер успішно прийняв та відправив лист
+    alert('Дякуємо за ваше повідомлення! Ми зв\'яжемося з вами найближчим часом.');
+    contactModal.style.display = 'none';
+    this.reset();
+
+  } catch (error) {
+    console.error(error);
+    alert('Сталася помилка при відправці. Спробуйте пізніше.');
+  }
 });    
 </script>
   <script>
@@ -186,12 +413,20 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   });
 
 
-  document.querySelectorAll('.nav a').forEach(link => {
-    link.addEventListener('click', () => {
+document.querySelectorAll('.nav a').forEach(link => {
+  link.addEventListener('click', (e) => {
+    // Если это ссылка-дропдаун (у неё есть родитель .dropdown) — не закрываем бургер
+    if (link.parentElement.classList.contains('dropdown')) {
+      e.preventDefault(); // убираем переход по ссылке
+      const parent = link.parentElement;
+      parent.classList.toggle('open'); // открываем/закрываем подменю
+    } else {
+      // для обычных ссылок (например "Контакти") — закрываем меню
       nav.classList.remove('active');
       burger.classList.remove('active');
-    });
+    }
   });
+});
 
   
   function rearrangeAboutSection() {
@@ -224,5 +459,131 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   window.addEventListener('DOMContentLoaded', rearrangeAboutSection);
   window.addEventListener('resize', rearrangeAboutSection);
 </script>
+<script>
+  // Раскрытие подменю в бургер-меню
+  document.querySelectorAll('.dropdown > a').forEach(link => {
+    link.addEventListener('click', (e) => {
+      if (window.innerWidth <= 768) { // только для мобилки
+        e.preventDefault();
+        const parent = link.parentElement;
+        parent.classList.toggle('open');
+      }
+    });
+  });
+</script>
+<script>
+(function(){
+  const wrapper = document.querySelector('.reviews-wrapper');
+  const container = document.querySelector('.reviews-container');
+  const prevBtn = document.querySelector('.arrows.prev');
+  const nextBtn = document.querySelector('.arrows.next');
+
+  let reviews = [];
+  let index = 0;
+  let perPage = 3;
+
+  function refreshReviews(){
+    reviews = Array.from(container.querySelectorAll('.review'));
+  }
+
+  function calcPerPage(){
+    if (window.innerWidth < 768) perPage = 1;
+    else if (window.innerWidth < 1024) perPage = 2;
+    else perPage = 3;
+  }
+
+  function clampIndex(){
+    const maxIndex = Math.max(0, Math.ceil(reviews.length / perPage) - 1);
+    if (index > maxIndex) index = maxIndex;
+    if (index < 0) index = 0;
+  }
+
+  function setTransform(offset, animate=true){
+    if (!animate){
+      container.style.transition = 'none';
+      container.style.transform = `translateX(${offset}px)`;
+      // форсируем layout, затем возвращаем transition
+      container.offsetHeight;
+      container.style.transition = '';
+    } else {
+      container.style.transform = `translateX(${offset}px)`;
+    }
+  }
+
+  function updateSlider({animate=true} = {}){
+    if (!wrapper || !container) return;
+    refreshReviews();
+    calcPerPage();
+    clampIndex();
+
+    // стартовый индекс — либо index*perPage, либо последний возможный блок
+    const startIndex = Math.min(index * perPage, Math.max(0, reviews.length - perPage));
+    const startCard = reviews[startIndex];
+    let offset = startCard ? -startCard.offsetLeft : 0;
+
+    // не уезжать за правый край
+    const maxNegative = -(container.scrollWidth - wrapper.clientWidth);
+    if (offset < maxNegative) offset = maxNegative;
+    if (offset > 0) offset = 0;
+
+    setTransform(offset, animate);
+  }
+
+  nextBtn?.addEventListener('click', ()=>{
+    calcPerPage();
+    const maxIndex = Math.max(0, Math.ceil(reviews.length / perPage) - 1);
+    if (index < maxIndex) { index++; updateSlider(); }
+  });
+
+  prevBtn?.addEventListener('click', ()=>{
+    if (index > 0) { index--; updateSlider(); }
+  });
+
+  // при изменении размера — сбрасываем на начало и быстро перестраиваем без анимации
+  window.addEventListener('resize', () => {
+    index = 0;
+    updateSlider({animate:false});
+  });
+
+  // при полной загрузке ресурсов (включая картинки) — начинаем с первой страницы
+  window.addEventListener('load', () => {
+    index = 0;
+    updateSlider({animate:false});
+  });
+
+  // на DOMContentLoaded — тоже пробуем, с небольшой задержкой (чтобы отрисовались блоки)
+  window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+      index = 0;
+      updateSlider({animate:false});
+    }, 50);
+  });
+
+  // защита для страниц, восстановленных из bfcache (back/forward cache)
+  window.addEventListener('pageshow', (e) => {
+    if (e.persisted) {
+      index = 0;
+      updateSlider({animate:false});
+    }
+  });
+
+  // если контейнер/картинки поменяют размеры — поправим позицию
+  if (window.ResizeObserver) {
+    const ro = new ResizeObserver(() => updateSlider({animate:false}));
+    ro.observe(wrapper);
+    ro.observe(container);
+  }
+
+})();
+</script>
+
+
+
+
+
+
+
+
+
 </body>
 </html>
